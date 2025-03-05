@@ -50,19 +50,19 @@ function Home() {
     >
       <div className="  h-[80vh] w-1/2 max-md:w-full  flex flex-col justify-center items-center gap-15">
         <div className=" autotxt bk flex flex-col justify-center gap-4 pl-32 w-full max-[1380px]:mt-50  flex-wrap max-lg:w-full   max-lg:justify-center max-lg:pl-20  ">
-          <motion.h1  initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:1}} className="text-white text-3xl  max-xl:text-2xl font-bold">
+          <motion.h1  initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:1}} className="text-white text-3xl  max-xl:text-xl font-bold">
             Hello its's Me
           </motion.h1>
-          <motion.h1 initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:1}} className="text-white text-4xl max-xl:text-2xl font-bold ">
+          <motion.h1 initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:1}} className="text-white text-4xl max-xl:text-xl font-bold ">
             Atul Kumar Chourasia
           </motion.h1>
-          <motion.h1 initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:0.5}} className="text-white text-4xl  max-xl:text-2xl font-bold">
+          <motion.h1 initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:0.5}} className="text-white text-4xl  max-xl:text-xl font-bold">
             And I am a{" "}
             <span ref={el} className="text-cyan-500">
               Frontend Developer
             </span>
           </motion.h1>
-          <motion.p initial={{opacity:0,translateY:"-100%"}}  whileInView={{opacity:1,translateY:"0"}} transition={{duration:0.5}}  className=" descri text-white text-xl max-lg:text-md leading-10  w-[29vw]  max-lg:w-full max-md:w-[60vw]">
+          <motion.p initial={{opacity:0,translateY:"-100%"}}  whileInView={{opacity:1,translateY:"0"}} transition={{duration:0.5}}  className=" descri text-white text-xl max-lg:text-sm leading-10  w-[29vw]  max-lg:w-full max-md:w-[60vw]">
             I'm a Web Devloper with experience for over 1 year expertise is to
             create and website design,frontened design and many more.
           </motion.p>
