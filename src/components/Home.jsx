@@ -48,27 +48,27 @@ function Home() {
       className="main-container flex    max-md:h-[150vh] max-md:flex-col-reverse  "
       id="home"
     >
-      <div className="  h-[80vh] w-1/2 max-md:w-full  flex flex-col justify-center items-center mt:50 gap-15">
-        <div className=" autotxt bk flex flex-col justify-center   gap-4 pl-32 w-full max-[1380px]:mt-50  flex-wrap max-lg:w-full   max-lg:justify-center max-lg:pl-20  ">
+      <div className="  h-[80vh] w-1/2 max-md:w-full  flex flex-col justify-center items-center gap-15">
+        <div className=" autotxt bk flex flex-col justify-center gap-4 pl-32 w-full max-[1380px]:mt-50  flex-wrap max-lg:w-full   max-lg:justify-center max-lg:pl-20  ">
           <motion.h1  initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:1}} className="text-white text-3xl  max-xl:text-2xl font-bold">
             Hello its's Me
           </motion.h1>
-          <motion.h1 initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:1}} className="text-white text-4xl max-lg:text-2xl font-bold ">
+          <motion.h1 initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:1}} className="text-white text-4xl max-xl:text-2xl font-bold ">
             Atul Kumar Chourasia
           </motion.h1>
-          <motion.h1 initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:0.5}} className="text-white text-4xl  max-lg:text-2xl font-bold">
+          <motion.h1 initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:0.5}} className="text-white text-4xl  max-xl:text-2xl font-bold">
             And I am a{" "}
             <span ref={el} className="text-cyan-500">
               Frontend Developer
             </span>
           </motion.h1>
-          <motion.p initial={{opacity:0,translateY:"-100%"}}  whileInView={{opacity:1,translateY:"0"}} transition={{duration:0.5}}  className=" descri text-white text-xl max-lg:text-lg leading-10  w-[29vw]  max-lg:w-full max-md:w-[60vw]">
+          <motion.p initial={{opacity:0,translateY:"-100%"}}  whileInView={{opacity:1,translateY:"0"}} transition={{duration:0.5}}  className=" descri text-white text-xl max-lg:text-md leading-10  w-[29vw]  max-lg:w-full max-md:w-[60vw]">
             I'm a Web Devloper with experience for over 1 year expertise is to
             create and website design,frontened design and many more.
           </motion.p>
         </div>
 
-        <div className="icons flex gap-12  flex-wrap  w-[80%] max-[1390px]:gap-7 max-[1580px]:justify-center   max-md:gap-5 max-md:w-full">
+        <div className="icons flex gap-12  flex-wrap  w-[80%]  pl-5 max-[1580px]:pl-0  max-[1390px]:gap-7 max-[1580px]:justify-center   max-md:gap-5 max-md:w-full">
           <a href="https://www.facebook.com/share/1E5hCScsJY/">
           <motion.div initial={{opacity:0,translateY:"-100px"}}  whileInView={{opacity:1,translateY:"0px"}} transition={{duration:1}} className="border-2 p-2 border-white rounded-full">
             <FaFacebook className="text-3xl text-cyan-300 cursor-pointer  max-md:text-xl  transition duration-300 ease-in-out hover:scale-[1.3]" />
