@@ -107,7 +107,7 @@ function Home() {
         </div>
         <motion.div initial={{opacity:0,scale:0}}  whileInView={{opacity:1,scale:1}} transition={{duration:0.8}}  className="btn   w-[75%]">
           <motion.button    className="text-white border-2 p-4 font-bold rounded-4xl shadow-2xl hover:shadow-green-500 active:shadow-green-500 active:bg-green-400 active:text-black active:border-1   text-xl flex hover:bg-green-400 hover:text-black cursor-pointer transition duration-300 ease-in-out hover:font-bold max-md:m-auto max-lg:m-auto">
-           <a href="/myfile.pdf" download='myfile.pdf'> Download Resume</a>
+           <a href="/Atul-kumar-chourasia.pdf" download='myfile.pdf'> Download Resume</a>
           </motion.button>
         </motion.div>
       </div>
