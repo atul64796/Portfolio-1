@@ -49,7 +49,7 @@ function Home() {
       id="home"
     >
       <div className="  h-[80vh] w-1/2 max-md:w-full  flex flex-col justify-center items-center  gap-15">
-        <div className=" autotxt bk flex flex-col justify-center   gap-4 pl-32 w-full mt-30  flex-wrap  max-lg:w-full   max-lg:justify-center max-lg:pl-20  ">
+        <div className=" autotxt bk flex flex-col justify-center   gap-4 pl-32 w-full max-[1380px]:mt-50  flex-wrap max-lg:w-full   max-lg:justify-center max-lg:pl-20  ">
           <motion.h1  initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:1}} className="text-white text-3xl max-lg:text-2xl font-bold">
             Hello its's Me
           </motion.h1>
@@ -68,7 +68,7 @@ function Home() {
           </motion.p>
         </div>
 
-        <div className="icons flex gap-19  flex-wrap  w-[80%]  justify-center  max-md:gap-5 max-md:w-full">
+        <div className="icons flex gap-12  flex-wrap  w-[80%] max-[1390px]:gap-7 max-[1580px]:justify-center   max-md:gap-5 max-md:w-full">
           <a href="https://www.facebook.com/share/1E5hCScsJY/">
           <motion.div initial={{opacity:0,translateY:"-100px"}}  whileInView={{opacity:1,translateY:"0px"}} transition={{duration:1}} className="border-2 p-2 border-white rounded-full">
             <FaFacebook className="text-3xl text-cyan-300 cursor-pointer  max-md:text-xl  transition duration-300 ease-in-out hover:scale-[1.3]" />
