@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { motion } from "motion/react"
 
-import akImage from "../images/ak.jpg";
+import akImage from "../images/ak1.png";
 import gifimage from "../images/df.gif";
 
 
@@ -18,16 +18,16 @@ function About() {
 
 
   return (
-    <div id="abt" >
-      <div className=" about-ct flex  space-evenly  p-5   h-[100vh]">
+    <div id="abt" className="h-[80vh] " >
+      <div className=" about-ct flex  space-evenly  p-5">
        
-    <motion.div initial={{opacity:0,scale:0}}  whileInView={{opacity:1,scale:1}} transition={{duration:1}} className="right flex justify-center items-center w-1/2 max-md:hidden  ">
+    <motion.div initial={{opacity:0,scale:0}}  whileInView={{opacity:1,scale:1}} transition={{duration:1}} className=" flex justify-center items-center w-1/2 max-md:hidden  ">
 
-      <div  className=" box h-[40vw] flex justify-center  w-[40vw] max-w-[420px] max-h-[420px]    shadow-2xl shadow-cyan-50/100 rounded-full animate-spinmax-lg:w-[350px] max-lg:h-[350px]">
-          <img src={gifimage} alt="" className="rounded-full  " />
-          <img src={akImage} alt="" className="rounded-full absolute bottom-1  " />
+      <div  className=" ak  bg-amber-500  h-[40vw] flex justify-center items-center  relative shadow-2xl shadow-cyan-300 w-[40vw] max-w-[420px] max-h-[420px]     rounded-full">
+          <img src={akImage} alt="" className="rounded-full"/>
         </div>
         </motion.div>
+        
 
         <div className="left w-1/2    max-md:w-full rounded-4xl  flex flex-col justify-center items-center gap-5 p-6">
           <motion.h1 initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:0.5}}  className="text-4xl text-white text-center font-bold underline decoration-2">

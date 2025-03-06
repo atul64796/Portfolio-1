@@ -39,7 +39,7 @@ function Skills() {
       <motion.h1   initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:0.5}} className="text-4xl text-white text-center font-bold underline decoration-2 mt-10 mb-36">My <span className="text-cyan-300 ">skills</span></motion.h1>
       <div className="h-full  border-white flex max-lg:flex-col max-lg:not-first:items-center gap-15">
       <div className=" w-1/2  max-lg:w-full flex items-center flex-col justify-center" >
-      <motion.h1 initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}}  className="text-3xl text-white max-sm:mb-10">Technical Skills</motion.h1>
+      <motion.h1 initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}}  className="text-3xl text-white font-bold max-sm:mb-10">Technical Skills</motion.h1>
       {skills.map((skills,index)=>(
          <div key={index} className=" w-full max-lg:w-[80%] h-30 flex justify-center items-center gap-3 ">
           <img src={skills.img} alt={skills.name} className="h-14" />
@@ -59,7 +59,7 @@ function Skills() {
       ))}
       </div>
       <div className=" w-1/2 max-lg:w-[80%]   flex items-center flex-col justify-center" >
-       <motion.h1 initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:0.5}} className="text-3xl text-white max-sm:mb-10">Communication Skills</motion.h1>
+       <motion.h1 initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:0.5}} className=" font-bold max-sm:mb-10 text-3xl text-white">Communication Skills</motion.h1>
       {communication.map((skills,index)=>(
         
          <div key={index} className="  w-full h-30 flex justify-center items-center gap-3 ">

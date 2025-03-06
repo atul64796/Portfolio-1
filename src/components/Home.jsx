@@ -12,6 +12,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { motion } from "motion/react"
 
 import akImage from "../images/ak.jpg";
+import akImage1 from "../images/ak1.png";
 import gifimage from "../images/df.gif";
 
 function Home() {
@@ -45,7 +46,7 @@ function Home() {
 
   return (
     <div
-      className="main-container flex    max-md:h-[150vh] max-md:flex-col-reverse  "
+      className="main-container flex h-[100vh]    max-md:h-[150vh] max-md:flex-col-reverse  "
       id="home"
     >
       <div className="  h-[80vh] w-1/2 max-md:w-full  flex flex-col justify-center items-center gap-15">
@@ -112,14 +113,10 @@ function Home() {
         </motion.div>
       </div>
 
-      <motion.div initial={{opacity:0,scale:0}}  whileInView={{opacity:1,scale:1}}   className="  h-[80vh] w-1/2 flex justify-center items-center max-md:w-full  ">
-        <div className=" box h-[50vw]  w-[50vw] max-w-[450px] max-h-[450px]  z-[-1]  shadow-2xl shadow-cyan-50/100 border-6 rounded-full    max-lg:w-[350px] max-lg:h-[350px]">
-          <img src={gifimage} alt="" className="rounded-full " />
-          <img
-            src={akImage}
-            alt=""
-            className="rounded-full  absolute bottom-0 "
-          />
+      <motion.div  initial={{opacity:0,scale:0}}  whileInView={{opacity:1,scale:1}} transition={{duration:1.5}}   className=" border-white  w-1/2 max-lg:w-full max-w-[60%]  max-md:max-w-full  flex items-center justify-center">
+        <div className="ak w-[48%]  max-md:w-[50%] max-sm:w-[75%] shadow-lg shadow-green-300   max-md:mt-20  flex justify-center items-center  relative rounded-full">
+        
+          <img src={akImage1} alt=""  className="w-full rounded-full  "/>
         </div>
       </motion.div>
     </div>
