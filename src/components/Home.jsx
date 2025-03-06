@@ -39,7 +39,7 @@ function Home() {
     });
 
     return () => {
-      typed.destroy();
+      typed.destroy()
     };
   }, []);
 
