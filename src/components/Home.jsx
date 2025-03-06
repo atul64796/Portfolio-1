@@ -49,7 +49,7 @@ function Home() {
       id="home"
     >
       <div className="  h-[80vh] w-1/2 max-md:w-full  flex flex-col justify-center items-center gap-15">
-        <div className=" autotxt bk flex flex-col justify-center gap-4 pl-32 w-full max-[1380px]:mt-50 max-[480px]:mt-20 flex-wrap max-lg:w-full   max-lg:justify-center max-lg:pl-20  ">
+        <div className=" autotxt bk flex flex-col justify-center gap-4 pl-32 w-full max-[1380px]:mt-50 max-[480px]:mt-30 flex-wrap max-lg:w-full   max-lg:justify-center max-lg:pl-20  ">
           <motion.h1  initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:1}} className="text-white text-3xl  max-xl:text-2xl font-bold">
             Hello it's Me
           </motion.h1>
