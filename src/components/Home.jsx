@@ -49,7 +49,7 @@ function Home() {
       className="main-container flex h-[100vh]    max-md:h-[150vh] max-md:flex-col-reverse  "
       id="home"
     >
-      <div className="  h-[80vh] w-1/2 max-md:w-full  flex flex-col justify-center items-center gap-15">
+      <div className="  h-[100vh] w-1/2 max-md:w-full  flex flex-col justify-center items-center gap-15 ">
         <div className=" autotxt bk flex flex-col justify-center gap-4 pl-32 w-full max-[1380px]:mt-50 max-[480px]:mt-30 flex-wrap max-lg:w-full   max-lg:justify-center max-lg:pl-20  ">
           <motion.h1  initial={{opacity:0,translateX:"-100%"}}  whileInView={{opacity:1,translateX:"0"}} transition={{duration:1}} className="text-white text-3xl  max-xl:text-2xl font-bold">
             Hello it's Me
@@ -113,8 +113,8 @@ function Home() {
         </motion.div>
       </div>
 
-      <motion.div  initial={{opacity:0,scale:0}}  whileInView={{opacity:1,scale:1}} transition={{duration:1.5}}   className=" border-white  w-1/2 max-lg:w-full max-w-[60%]  max-md:max-w-full  flex items-center justify-center">
-        <div className="ak w-[48%]  max-md:w-[50%] max-sm:w-[75%] shadow-lg shadow-green-300   max-md:mt-20  flex justify-center items-center  relative rounded-full">
+      <motion.div  initial={{opacity:0,scale:0}}  whileInView={{opacity:1,scale:1}} transition={{duration:1.5}}   className=" border-white   w-1/2 max-lg:w-full max-w-[60%]  max-md:max-w-full  flex items-center justify-center">
+        <div className="ak w-[43%]  max-md:w-[48%] max-sm:w-[60%] shadow-lg shadow-green-300   max-md:mt-20  flex justify-center items-center  relative rounded-full">
         
           <img src={akImage1} alt=""  className="w-full rounded-full  "/>
         </div>
