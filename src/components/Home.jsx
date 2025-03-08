@@ -113,8 +113,8 @@ function Home() {
         </motion.div>
       </div>
 
-      <motion.div  initial={{opacity:0,scale:0}}  whileInView={{opacity:1,scale:1}} transition={{duration:1.5}}   className=" border-white   w-1/2 max-lg:w-full max-w-[60%]  max-md:max-w-full  flex items-center justify-center">
-        <div className="ak w-[43%]  max-md:w-[48%] max-sm:w-[70%] shadow-lg shadow-green-300   max-md:mt-20  flex justify-center items-center  relative rounded-full">
+      <motion.div  initial={{opacity:0,scale:0}}  whileInView={{opacity:1,scale:1}} transition={{duration:1.3}}   className=" border-white   w-1/2 max-lg:w-full max-w-[60%]  max-md:max-w-full  flex items-center justify-center">
+        <div className="ak w-[43%]  max-md:w-[48%] max-sm:w-[76%] shadow-lg shadow-green-300   max-md:mt-10  flex justify-center items-center  relative rounded-full">
         
           <img src={akImage1} alt=""  className="w-full rounded-full  "/>
         </div>
